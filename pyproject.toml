@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "orgseg-ink"
+version = "0.1.0"
+description = "Public Herculaneum ink models on organizer segments, agreement and row-score tests, documented nulls (Vesuvius Challenge)"
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python = ">=3.10"
+dependencies = ["numpy", "tifffile", "zarr<3", "opencv-python-headless"]
+[tool.setuptools]
+packages = ["orgseg_ink"]
