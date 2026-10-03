@@ -1,0 +1,5 @@
+numpy
+tifffile
+zarr
+opencv-python-headless
+pytest
